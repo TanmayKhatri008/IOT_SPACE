@@ -1,0 +1,57 @@
+.View{
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  background-color: white;
+  padding: 4px;
+  justify-content: space-around;
+}
+.Operators{
+  color: white;
+  font-size: 20px;
+  border: 1px solid #d1d5db;
+  margin-left: 10px;
+  display: flex;
+  padding: 3px;
+  background-color: #171C8F;
+}
+.Stations{
+  padding: 3px;
+  font-size: 20px;
+  border: 1px solid #d1d5db; 
+  display: flex;
+}
+.View-main{display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 3px;
+
+}
+.toggle-button {
+  font-size: 20px;
+  border: 1px solid #d1d5db;
+  padding: 3px 10px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: #171C8F;
+  background-color: white;
+}
+
+.toggle-button.active {
+  background-color: blue;
+  color: white;
+}
+@media (max-width:768px) {
+  .View{
+    font-size: 16px;
+    
+  }
+  .toggle-button{
+    padding: 4px;
+    font-size: 16px;
+  }
+
+}

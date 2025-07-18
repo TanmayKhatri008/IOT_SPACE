@@ -1,0 +1,24 @@
+.Header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 30px;
+  padding: 4px;
+  background-color: white;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.IOT{
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding:5px;
+  height: 90%;
+}
+.Union{
+  width: auto;
+  height: 70%;
+}
+.Header img{
+  margin-right: 20px;
+}

@@ -1,0 +1,50 @@
+.navContainer {
+  display: flex;
+  gap: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  padding: 10px;
+  color: #555;
+}
+
+.navItem {
+  cursor: pointer;
+  color: #555;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.navItem:hover {
+  color: #1e40af; /* dark blue on hover */
+}
+
+.active {
+  color: blue;
+  text-decoration: underline;
+}
+@media (max-width: 1024px) {
+    .navContainer{
+      font-size: large;
+      gap: 10px;
+      font-weight: 400;
+      
+    }
+}
+@media (max-width: 820px) {
+    .navContainer{
+      font-size: 15px;
+      gap: 5px;
+      font-weight: 300;
+      padding: 5px;
+      
+    }
+}
+@media (max-width: 768px) {
+    .navContainer{
+      font-size: 14px;
+      gap: 5px;
+      font-weight: 300;
+      padding: 3px;
+      
+    }
+}

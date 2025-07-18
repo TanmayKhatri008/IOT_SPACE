@@ -1,0 +1,50 @@
+.Summary {
+  background-color: #f5f6f9;
+  border-radius: 10px;
+  overflow-x: auto;
+}
+
+.table-Working {
+  width: 50%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.Working-head th {
+  text-align: left;
+  font-weight: 200;
+  font-size: 1rem;
+  color: #333;
+  padding-left: 1.5%;
+  width: 12%;
+  padding-top: 1%;
+}
+
+.Working-body td {
+  padding-top: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1%;
+  
+}
+
+.Working-body td:nth-child(1) {
+    padding-left: 3%;
+    width: 20%;
+}
+
+.Working-body td:nth-child(2),
+.Working-body td:nth-child(3) {
+
+  color: #2cb55c;
+   /* Present and Absent in green */
+}
+
+@media (max-width: 600px) {
+  .table-Working {
+    font-size: 14px;
+  }
+  .Working-body td {
+    font-size: 16px;
+  }
+}

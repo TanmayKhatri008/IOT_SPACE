@@ -1,0 +1,21 @@
+.Skill {
+  padding: 6px;
+  display: flex;
+  justify-content: space-between;
+  color: black;    
+           
+}
+.Skill p{
+  font-size: 1.45rem;
+  color: black;
+  font-weight: 500;
+  align-content: center;
+}
+@media (max-width: 1024px) {
+  .Skill p{
+     font-size: larger;
+    
+      font-weight: 400;
+  }
+  
+}

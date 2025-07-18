@@ -1,0 +1,51 @@
+.sideSelect {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.selectBox {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fc;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.selectBox label {
+  margin-right: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+.selectBox select {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  outline: none;
+  appearance: none;
+  padding-right: 20px;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23666' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 12px 8px;
+  min-width: 100px;
+}
+
+.moreButton {
+  padding: 6px 12px;
+  background-color: transparent;
+  border: 1px solid #3b3bea;
+  color: #3b3bea;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.moreButton:hover {
+  background-color: #e0e7ff;
+}
